@@ -1,0 +1,107 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+   
+.continar {
+  width: 75%;
+  height:100vh;
+  background:url(carousel-1.jpg);
+  background-position: center;
+  animation: ucl 9s  infinite;
+
+}
+.banner {
+  width: 90%;
+  height: 150px;
+ position: relative;
+ display: flex;
+ justify-content: space-between;
+ margin: auto;
+ align-items: center;
+
+}
+.fa-solid {
+  color: white;
+  font-size: x-large;
+   
+}
+
+@keyframes ucl {
+
+    30%{
+      background-image: url(880d813f05620fc4cf3f71e629d59bb6.jpg);
+
+    }
+    50%{
+      background-image: url(uefa_champions_league__2022___2023_by_jafarjeef_dfb9jvz-fullview.jpg);
+      
+    }
+   
+    80%{
+      background: url(uclreal\ madrid.jpg);
+      background-position: center;
+    }
+
+  
+
+}
+
+ #navbar {
+    position: absolute;
+    width: 50%;
+    height: 200px;
+    background-color: rgba(200, 200, 255, 0.2);
+    border-radius: 20px;
+    right: 0;
+    top: 80px;
+    
+   
+
+
+ }
+ button {
+  border: none;
+  background-color: transparent;
+  color:black
+ }
+
+ a {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  color: white;
+  font-size: large;
+  margin:6px 0px 0px 6px;
+
+
+  
+ }
+
+ .hide {
+  display: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width :500px) 
+  {
+   .continar {
+     width: 100%;
+
+   }
+
+  }
